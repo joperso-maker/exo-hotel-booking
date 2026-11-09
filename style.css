@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    border: dashed 1px grey;
+    list-style: none;
+    margin : 0;
+    background-color: var(--background-color);
+    text-decoration: none;
+    color: inherit;
+}
+main {
+    width: 80%;
+}
+
+:root {
+    --background-color: #faf6F1;
+    --card-color: #fffdf9;
+    --text-color: #29241F;
+    --text-color-bis: #817B73;
+    --color-accent: #B74922;
+    --color-sun: #F1D577;
+    --accent-wifi: #5366BF;
+    --accent-breakfast: #B34269;
+    --border: #E5DDD5;
+}
+
+/**************************
+*CSS GLOBAL
+***************************/
+
+#global-page {
+    display: flex;
+    gap : 30px;
+
+}
+#detail-head {
+    display: flex;
+    gap: 10px;
+}
+#header-main {
+    display: flex;
+    justify-content: space-between;
+}
+#user-name {
+    color: var(--color-accent);
+}
+#top-btn {
+    display: flex;
+    gap: 20px;
+
+}
+.white-btn {
+    border : 1px solid grey;
+    background-color: var(--card-color);
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.black-btn {
+    border : 1px solid grey;
+    color: var(--card-color);
+    background-color: var(--text-color);
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+#side-bar {
+    width: 20%;
+}
